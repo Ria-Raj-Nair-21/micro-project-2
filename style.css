@@ -1,0 +1,283 @@
+
+
+.container{
+    display: flex;
+    background-color: #483EFF;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 21px;
+    height: 60vh;
+    margin-bottom: 10vh;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.left-container button{
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+
+    
+}
+
+.left-container button:first-of-type{
+   background: #BCE0F6;
+   color: black;
+   box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+
+
+.right-container{
+    box-sizing: border-box;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.info-heading{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+
+.info{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+
+.info span{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+
+.next {
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+
+.next img{
+    width: 20px;
+    margin-left: 7px;
+}
+.box-container{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+.box{
+    width: 21%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.box1{
+    background: #929DFF;
+}
+.box2{
+    background: #734CF2;
+}
+.box3{
+    background: #D288FF;
+}
+.box4{
+    background: #000000;
+}
+.help{
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.help img{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    background-color: #6F6AF7;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+.logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 32px;
+}
+
+
+.dots{
+    height: 40px;
+   
+}
+
+.option ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.option ul li{
+    margin-right: 15px;
+}
+
+.option ul li select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.option ul li input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.option ul li:last-of-type{
+    position: relative;
+}
+
+.option ul li img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 16px;
+
+}
+.page1{
+    display: flex;   
+    align-items: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.page1-left img {
+    height: 72vh;
+}
+.page1-left {
+    width: 456px;
+    height: 507px;
+    top: 289px;
+    left: 129px;
+    border-radius: 20px;
+    box-shadow: 4px 7px 32px 0px #00000070;
+}
+
+
+.page1-right {
+    width: 972px;
+    height: 507px;
+    top: 289px;
+    left: 634px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #E5D8FF, #E5D8FF), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 6px solid #FFFFFF;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+    margin-left: 20px;
+}
+
+
+
+
+
+.page1-right p{
+    width: 922px;
+height: 83px;
+top: 318px;
+left: 668px;
+font-family: DM Sans;
+font-size: 29px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #6F7373;
+
+
+}
+
+
+.social{
+    position: sticky;
+    top: 80px;
+    margin-top:25vh;
+    float: right;
+   
+   
+}
+
+.social img{
+    height: 40px;
+    width: 40px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-bottom: 10px;
+   
+}
+
+
+body{
+    margin: 0;
+}
